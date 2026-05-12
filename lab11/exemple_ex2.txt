@@ -1,0 +1,15 @@
+echo "ana are mere" | wc -w
+
+printf "a\nb\nc\n" | wc -l
+
+echo -e "ana\nmaria\nalex\nana maria" | grep ana
+
+echo -e "ana\nmaria\nana\nion" | grep ana | wc -l
+
+echo -e "b\na\nb\nc\na" | sort | uniq
+
+echo -e "b\na\nb\nc\na" | sort | uniq -c
+
+seq 1 10 | grep 1 | wc -l
+
+echo -e "apple\nbanana\napple\norange" | grep apple | wc -l
